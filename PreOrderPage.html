@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale = 1.0">
+
+    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="//db.onlinewebfonts.com/c/11b9313c156261bdee0bc8b745b34450?family=DwarvenAxeBBW00-Regular"
+        rel="stylesheet" type="text/css" />
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="./js/Home.js"></script>
+
+    <title>
+        Rainbow Seven Siege
+    </title>
+</head>
+
+<body class="preOrderBody">
+    <header>
+        <div class="leftHeader">
+            <div class="logoHeader">
+                <img src="./Assets/Logo/darkest_logo.png">
+            </div>
+        </div>
+
+        <div class="rightHeader">
+            <div class="topnav" id="myTopnav">
+                <a href="HomePage.html">HOME</a>
+                <a href="OperatorPage.html">OPERATORS</a>
+                <a href="MapsPage.html">MAPS</a>
+                <a href="QuarantinePage.html">QUARANTINE</a>
+                <a href="PreOrderPage.html" class="active">PRE-ORDER</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-form-body">
+        <div class="title-preorder">
+            <p>Pre-Order NOW!</p>
+        </div>
+
+        <div class="description-preorder">
+            <p>by joining, you can get newsletters for our event or new patch notes</p>
+        </div>
+
+        <div class="container-form">
+            <form action="">
+                
+                <div class="form-title">
+                    <label for="">Username</label>
+                </div>
+                <div class="container-input">
+                    <input type="text" name="" id="username">
+                </div>
+
+                <div class="form-title">
+                    <label for="">Email</label>
+                </div>
+                <div class="container-input">
+                    <input type="email" name="" id="email">
+                </div>
+
+                <div class="form-title">
+                    <label for="">Password</label>
+                </div>
+                <div class="container-input">
+                    <input type="password" name="" id="password">
+                </div>
+
+                <div class="form-title">
+                    <label for="">Address</label>
+                </div>
+                <div class="container-input">
+                    <input type="text" name="" id="address">
+                </div>
+
+                <div class="form-title">
+                    <label for="">Number of Copies</label>
+                </div>
+                <div class="container-input">
+                   <select name="" id="copies">
+                    <option value="default">Choose Number of Copies</option>
+                    <option value="one">1</option>
+                    <option value="two">2</option>
+                    <option value="three">3</option>
+                    <option value="four">4</option>
+                   </select>
+                </div>
+
+                <div class="form-title">
+                    <label for="">Game Editions</label>
+                </div>
+                <div class="container-input">
+                   <select name="" id="editions">
+                    <option value="default">Choose Editions</option>
+                    <option value="one">Normal Edition</option>
+                    <option value="two">Deluxe Edition</option>
+                    <option value="three">Game of the Year Edition</option>
+                   </select>
+                </div>
+
+                <div class="checkbox-container">
+                    <input type="checkbox" name="" id="checkbox"><label for=""> Terms and Agreements</label>
+                </div>
+
+                
+                
+
+            </form>
+
+            <div class="container-register">
+                <button type="submit" onclick="validateregister()">Pre-Order</button>
+            </div>
+        </div>
+    </div>
+</body>
